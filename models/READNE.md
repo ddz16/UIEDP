@@ -1,0 +1,1 @@
+Put the pretrained diffusion checkpoint `256x256_diffusion_uncond.pt` here.
