@@ -370,8 +370,6 @@ def getUCIQE2(loc):
 
 
 def calculate_path(path):
-    # path='/home/iscas/ddz/UIE/data/UIEB/challenging-60/'
-    # path='/home/iscas/ddz/UIE/data/UIEB/reference-890/'
     all_images = os.listdir(path)
 
     sumuiqm1, sumuciqe, sumniqe = 0., 0., 0.

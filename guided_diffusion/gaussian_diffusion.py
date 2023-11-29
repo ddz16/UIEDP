@@ -538,7 +538,7 @@ class GaussianDiffusion:
             progress=progress,
         ):
             index += 1
-            if index == 1 or index == 20 or index == 100 or index == 900 or index == 950 or index == 1000:
+            if index == 1 or index % 200==0:
                 all_res.append(sample["sample"])
                 # all_x0.append(sample["pred_xstart"])
             final = sample
