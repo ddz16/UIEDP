@@ -69,13 +69,18 @@ After sampling, you can evaluate perfermance of any dataset:
 ```
 python uie_test.py --dataset T90|C60|U45
 ```
+
+## Acknowledgment
+We adapted the code of [guided-diffusion](https://github.com/openai/guided-diffusion/tree/main) and [GDP](https://github.com/Fayeben/GenerativeDiffusionPrior). Thanks to the original authors for their work! 
+
 ## Citation
 
 ```
-@inproceedings{du2023timestamp,
-  title={Timestamp-Supervised Action Segmentation from the Perspective of Clustering},
-  author={Du, Dazhao and Li, Enhan and Si, Lingyu and Xu, Fanjiang and Sun, Fuchun},
-  booktitle={IJCAI},
-  year={2023}
+@misc{du2023uiedpunderwater,
+      title={UIEDP:Underwater Image Enhancement with Diffusion Prior}, 
+      author={Dazhao Du and Enhan Li and Lingyu Si and Fanjiang Xu and Jianwei Niu and Fuchun Sun},
+      year={2023},
+      eprint={2312.06240},
+      archivePrefix={arXiv}
 }
 ```
