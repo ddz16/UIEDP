@@ -1,6 +1,6 @@
 # UIEDP
 
-This repository provides offical Pytorch implementation of the paper "UIEDP: Underwater Image Enhancement with Diffusion Prior".
+This repository provides offical Pytorch implementation of the paper "[UIEDP: Underwater Image Enhancement with Diffusion Prior](https://www.sciencedirect.com/science/article/abs/pii/S0957417424021389)".
 
 
 
@@ -76,11 +76,13 @@ We adapted the code of [guided-diffusion](https://github.com/openai/guided-diffu
 ## Citation
 
 ```
-@misc{du2023uiedpunderwater,
-      title={UIEDP:Underwater Image Enhancement with Diffusion Prior}, 
-      author={Dazhao Du and Enhan Li and Lingyu Si and Fanjiang Xu and Jianwei Niu and Fuchun Sun},
-      year={2023},
-      eprint={2312.06240},
-      archivePrefix={arXiv}
+@article{du2025uiedp,
+  title={UIEDP: Boosting underwater image enhancement with diffusion prior},
+  author={Du, Dazhao and Li, Enhan and Si, Lingyu and Zhai, Wenlong and Xu, Fanjiang and Niu, Jianwei and Sun, Fuchun},
+  journal={Expert Systems with Applications},
+  volume={259},
+  pages={125271},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
