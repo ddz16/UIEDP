@@ -1,6 +1,6 @@
 # UIEDP
 
-This repository provides offical Pytorch implementation of the paper "[UIEDP: Underwater Image Enhancement with Diffusion Prior](https://www.sciencedirect.com/science/article/abs/pii/S0957417424021389)".
+This repository provides offical Pytorch implementation of the paper "[UIEDP: Boosting underwater image enhancement with diffusion prior](https://www.sciencedirect.com/science/article/abs/pii/S0957417424021389)".
 
 
 
